@@ -31,7 +31,7 @@ If it doesn't start at #1 again, or ask for help before moving on!
 
 Copy and paste the output of pwd below.
 ----------
-
+/Users/student/mtec1002
 
 
 ==========
@@ -42,6 +42,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
+animals
 
 
 
@@ -53,7 +54,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals	food
 
 
 ==========
@@ -64,7 +65,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals	foo	food
 
 
 ==========
@@ -76,7 +77,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/Users/student/mtec1002/foo/bar/baz/qux
 
 ==========
 9. Type:
@@ -86,7 +87,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/student/mtec1002/foo/bar
 
 
 ==========
@@ -98,7 +99,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/Users/student/mtec1002/foo/bar/baz/qux
  
 ==========
 11. Type:
@@ -108,7 +109,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/student/mtec1002
 
 
 ==========
@@ -120,8 +121,11 @@ $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
 ----------
+drwxr-xr-x  2 student  staff   68 Sep  9 15:23 animals
+drwxr-xr-x  3 student  staff  102 Sep  9 15:25 foo
 
-
+drwxr-xr-x  3 student  staff  102 Sep  9 15:25 foo
+drwxr-xr-x  2 student  staff   68 Sep  9 15:24 food
 
 ==========
 13. Type:
@@ -132,6 +136,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
+/Users/student
 
 
 ==========
@@ -143,7 +148,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/Volumes
 
 ==========
 15. Type:
@@ -153,8 +158,8 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
-
+-bash: cd: /unknown_folder: No such file or directory
+/Volumes
 
 ==========
 15. Type:
@@ -164,7 +169,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Users/student/mtec1002
 
 
 ==========
@@ -174,7 +179,7 @@ $ hostname
 
 Copy and paste the output into the space below.
 ----------
-
+v314-ent-013.local
 
 
 ==========
@@ -204,6 +209,7 @@ lemon
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
 
+mkdir -p pineapple/orange/strawberry/lemon
 
 
 ==========
@@ -211,7 +217,7 @@ Use only one command to make all of these new directories.  Write what command y
 
 Write the command you used to create the directory below:
 ----------
-
+mkdir aardvark
 
 
 ==========
@@ -219,6 +225,7 @@ Write the command you used to create the directory below:
 
 What is the modified date of the aardvark directory?
 ----------
+drwxr-xr-x  2 student  staff   68 Sep  9 15:39 aardvark
 
 
 
@@ -231,7 +238,7 @@ What is the modified date of the aardvark directory?
 
 What command did you use?
 ----------
-
+ mkdir -p foo/bar/baz
 
 
 ==========
@@ -247,41 +254,48 @@ What command did you use?
 
 What command did you use?
 ----------
-
+cd foo/bar/baz
 
 ==========
 24. What command is used to delete empty directories?
 ----------
-
+rmdir
 
 
 ==========
 25. What command is used to print out your current working directory?
 ----------
-
+pwd
 
 
 ==========
 26. What flag do I pass to ls to print out all files?
 ----------
 
-
+-a
 
 ==========
 27. What's the shortcut for home directory?
 ----------
 
-
+~
 
 ==========
 28. What's a pathname?
 ----------
 
-
+a pathname specifies a unique location in a file system and is a way to find or go to a specific file 
 
 ==========
 29. What's a directory?
 ----------
+a command to show what path the computer sshould make to find what uoure looking for 
+examples:.(current directory)
+..(parent directory)
+../..(up two directories)
+/(root directory)
+~(home directory)
+-(directory you were previously in)
 
 
 
